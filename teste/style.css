@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1a1a1a;
+   
+}
+
+h1 span{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    text-transform: uppercase;
+    filter: blur(6px);
+    position: relative;
+    transition: .5s;
+   color: white;
+   text-shadow: 0 0 10px purple;
+   gap: 50px;
+   letter-spacing: 5px;
+}
+
+h1 span:hover{
+    filter: blur(0px);
+    scale: 1.1;
+    
+   
+}
